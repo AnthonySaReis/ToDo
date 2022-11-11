@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    background-color: #efefef;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+
+.addButton {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: 0;
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hideModal {
+    display: none;
+}
+
+.lista{
+    
+}
+
+.lista li{
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    border-radius: 6px;
+    font-size: 18px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn button{
+    background: transparent;
+    border: none;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input {
+    height: 35px;
+    border: 0;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #FFF;
+}
+
+.form button{
+    background: white;
+    border: 0;
+    padding: 8px;
+    border-radius: 6px;
+    margin-left: 10px;
+    
+}
+
